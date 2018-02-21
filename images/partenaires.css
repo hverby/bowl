@@ -1,0 +1,282 @@
+html{
+background-color: #06213F;
+
+}
+#rapel:hover{
+    font-size: 22px;
+
+}
+#one:hover{
+    background-color: gray;
+}
+#two:hover{
+    background-color: gray;
+}
+#bases:hover{
+    font-size: 22px;
+}
+#rapel ,#bases{
+    border-style: solid;
+    boerder-color: black;
+    background-color: black;
+    color: white;
+    width: 90px;
+}
+
+#small_menu{
+    width: 450px;
+    position: absolute;
+    right: 5px;
+    height: 40px;
+    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#small_menu #lists li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+#small_menu #lists li:hover{
+    text-decoration: underline;
+}
+#small_menu #lists .equal{
+    border-right: 1px solid white;
+}
+#men{
+    position: relative;
+    bottom: 9px;
+}
+#logo{
+    width: 150px;
+}
+#logo_space{
+    width: 300px;
+}
+#slogan{
+    color: white;
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+}
+#search_space{
+    position: absolute;
+    right: 50px;
+    top: 80px;
+}
+.search_image{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    right: 1px;
+}
+#search_bar{
+    height: 30px;
+}
+#bouton_ok{
+    height: 30px;
+    position: relative;
+    left: 10px;
+}
+/*debut menu deroulant*/
+#menus ul{
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+	display: inline-block;
+    position: relative;
+    top: 205px;
+}
+#menus li{
+	list-style: none;
+	float: left;
+	position: relative;
+	background-color: #999;
+}
+#menus ul li a{
+	color: #000;
+	text-decoration: none;
+	width:170px;
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+	width: 200px;
+}
+#menus ul ul{
+	position: absolute;
+	top: 30px;
+	visibility: hidden;
+}
+#menus ul li: ul{
+    position: absolute;
+    z-index: 2;
+}
+#menus ul li:hover ul{
+	visibility: visible;
+}
+#menus li:hover{
+	background-color: #FFF;
+}
+#menus ul li ul a:hover{
+	color: #FFF;
+	background-color: #000;
+}
+#menus{
+    position: absolute;
+    left: 60px;
+    top: 35px;
+}
+/*fin du menu deroulant*/
+
+/*pied de page*/
+
+
+
+#one{
+    font-size: 20px;
+    float: left;
+    width: 45%;
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+    color: black;
+}
+#two{
+    float: right;
+    width: 45%;
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+    color: black;
+
+}
+
+#inline{
+    display: inline;
+}
+.bar1{
+    background-color: #ff6060;
+    border-width: 100%;
+}    
+.rol{
+	position: relative;
+    left: 40%;
+    
+}
+.submit{
+    position: relative;
+    left: 40%;
+    }
+
+     #part1{
+         float: left;
+         margin-top:0;
+         border-style: solid;
+         border-right-style: none;
+         border-color: black;
+         width: 23%;
+         border-radius: 30px;
+         margin-bottom: 0;
+     }
+     #part2{
+        float: left;
+        margin-top:0;
+        border-style: solid;
+        border-color: black;
+        border-left-style: none;
+        border-right-style: none;
+        width: 25%;
+        border-radius: 30px;
+        margin-bottom: 0;
+     }
+     #part3{
+        float: right;
+        margin-top: 0;
+        border-style: solid;
+        border-color: black;
+        width: 25%;
+        border-radius: 30px;
+        border-left-style: none;
+        margin-bottom: 0;
+     }
+     #part4{
+        width: 350px;
+        float: right;
+        margin-top: 0;
+        border-style: solid;
+        border-color: black;
+        border-right-style: none;
+        border-left-style: none;
+        margin-bottom: 0;
+        border-radius: 30px;
+     }
+    #part2 input{
+        width: 80px;
+    }
+    footer #part1:hover{
+        background-color: lightgray;
+    }
+    footer #part2:hover{
+        background-color: lightgray;
+    }
+    footer #part3:hover{
+        background-color: lightgray;
+    }
+    footer #part4:hover{
+        background-color: lightgray;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ html{
+        animation: inherit;
+      }
+    html {
+        color: hsl(324, 70%, 45%);
+        animation: wheelHueColor 10s infinite;
+        background-color: currentColor;
+      }
+      @supports (background-blend-mode: overlay) {
+      html {
+          background-image: linear-gradient(45deg, white 10%, black 90%);
+          background-blend-mode: overlay;
+        }
+      }
+      @keyframes wheelHueColor {
+        from, to { color: hsl(324, 70%, 45%); }
+        10%      { color: hsl(360, 65%, 45%); }
+        20%      { color: hsl( 36, 80%, 45%); }
+        30%      { color: hsl( 72, 75%, 35%); }
+        40%      { color: hsl(108, 65%, 35%); }
+        50%      { color: hsl(144, 75%, 35%); }
+        60%      { color: hsl(180, 75%, 35%); }
+        70%      { color: hsl(216, 60%, 45%); }
+        80%      { color: hsl(252, 65%, 50%); }
+        90%      { color: hsl(288, 60%, 40%); }
+      }
+      
+      
+      /* misc */
+      * { margin: 0; padding: 0; }
+      .background {
+        min-height: 100vh;
+        display: flex;
+      }
+      .text {
+        margin: auto;
+        background: rgba(0,0,0,.75);
+        padding: 1em;
+      }

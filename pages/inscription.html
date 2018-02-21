@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../style/inscription.css"/>
+    <title>Espace inscription BOWL || ESMAT</title>
+</head>
+    <body>
+    <header>
+    <img src="../images/logo2.PNG" alt="logo" id="logo"/>
+        <nav>
+            <ul class="list1">
+                <a href="../index.html"><li>ACCUEIL</li></a> 
+                <a href="apropos.php"><li>A PROPOS</li></a> 
+            </ul>
+            <ul class="list2">
+                <a href="espace_etudiant.php"><li>CONNEXION</li></a>
+                <a href="inscription.html"><li>INSCRIPTION</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section id="inscription">
+        <h1>INSCRIVEZ-VOUS</h1>
+        <form action="reception.php" method="post" id="form">
+        <label for="nom">nom et prenoms: <input type="text" name="nom" id="nom" class="input"/></label><br/><br/>
+        <label for="prenom">mot de passe: <input type="password" name="prenom" id="prenom" class="input"/></label><br/><br/>
+        <label for="naissance">date de naissance: <input type="date" name="date_naissance" id="naissance" class="input" class="input"/></label><br/><br/>
+        <label for="lieu">lieu de naissance: <input type="text" name="lieu_naissance" id="lieu" class="input"/></label><br/>
+        <p>sexe:
+        <input type="radio" name="sexe" value="H" id="sexe"/><label>HOMME</label> <input type="radio" name="sexe" value="F" id="sexe"/><label>FEMME</label>
+        </p>
+        <label for="nationnalite">nationnalité: <input type="text" name="nationnalite" id="nationnalite" class="input"/></label><br/><br/>
+        <label for="numero">téléphone: <input type="text" name="numero" id="numero" class="input"/></label><br/><br/>
+        <label>votre fillière:</label>
+        <select>
+            <option value="MIR">MIR</option>
+            <option value="ELECTRICITE">ELECTRICITE</option>
+            <option value="NTIC">NTIC</option>
+            <option value="MIR NTIC">MIR NTIC</option>
+            <option value="ELECTRICITE AUTO-FROID">ELECTRICITE AUTO-FROID</option>
+            <option value="ELECTRONIQUE">ELECTRONIQUE</option>
+            <option value="MIR ELEC">MIR ELEC</option>
+            <option value="ELECTRICITE INDUS-BAT">ELECTRICITE INDUS-BAT</option>
+            <option value="TELECOM">TELECOM</option>
+        </select><br/><br/>
+         <label>niveau:</label>
+        <select>
+            <option value="1ere année">1ere année</option>
+            <option value="2e année">2e année</option>
+            <option value="BTS">BTS</option>
+            <option value="licence">licence</option>
+            <option value="master">master</option>
+        </select><br/><br/>
+        <input type="submit" name="bouton" value="S'INSCRIRE" id="bouton"/>
+        </form>
+    </section>
+    <footer>
+        <p class="contacts">Contacts: +225 01-02-03-04 / Mail: legroupebowl97@gmail.com</p>
+        <p class="licence"> Tous droits reservés - 2018 - AEE Devs</p>
+    </footer>
+    </body>
+    
+    
+    
+    
+    
+    
+</html>

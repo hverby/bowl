@@ -1,0 +1,248 @@
+body {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: block;
+}
+html {
+font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+font-style: normal;
+font-weight: 500;
+width: 100%;
+height: auto;
+margin: 0;
+background-color: #06213F;
+position: absolute;
+}
+/*header{
+    background-color: #06213F;
+}*/
+#small_menu{
+    width: 450px;
+    position: absolute;
+    right: 5px;
+    height: 40px;
+    background-color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#small_menu #lists li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+}
+#small_menu #lists li:hover{
+    text-decoration: underline;
+}
+#small_menu #lists .equal{
+    border-right: 1px solid white;
+}
+#men{
+    position: relative;
+    bottom: 9px;
+}
+#logo{
+    width: 150px;
+}
+#logo_space{
+    width: 300px;
+}
+#slogan{
+    color: white;
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+}
+#text_defilant{
+    position: relative;
+    left: -2px;
+    top: 0px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*debut menu deroulant*/
+#menus ul{
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+	display: inline-block;
+    position: relative;
+    top: 205px;
+}
+#menus li{
+	list-style: none;
+	float: left;
+	position: relative;
+	background-color: #999;
+}
+#menus ul li a{
+	color: #000;
+	text-decoration: none;
+	width:170px;
+	display: block;
+	text-align: center;
+	border: 1px solid black;
+	width: 200px;
+}
+#menus ul ul{
+	position: absolute;
+	top: 30px;
+	visibility: hidden;
+}
+#menus ul li: ul{
+    position: absolute;
+    z-index: 2;
+}
+#menus ul li:hover ul{
+	visibility: visible;
+}
+#menus li:hover{
+	background-color: #FFF;
+}
+#menus ul li ul a:hover{
+	color: #FFF;
+	background-color: #000;
+}
+#menus{
+    position: absolute;
+    left: 60px;
+    top: 35px;
+}
+#formations{
+    position: absolute;
+    background-color: #FFF;
+    width: 500px;
+    height: 455px;
+    left: 810px;
+    top: 560px;
+    border-radius: 5px 5px 5px 5px;
+}
+#formations h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    position: relative;
+    left: 170px;
+    border: 1px solid white;
+    background-color: #06213F;
+    width: 250px;
+    color: white;
+}
+#formations ul li{
+    font-size: large;
+    padding: 8px;
+}
+#formations img{
+    width: 130px;
+    height: 80px;
+    position: absolute;
+}
+#cont{
+    width: 800px;
+    background-color: white;
+}
+#cont .info{
+    border: 2px solid black;
+    position: relative;
+    bottom: 40px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#cont .info:hover{
+    background-color: #06213F;
+    color: white;
+}
+#cont img{
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+}
+#cont .mark{
+    width: 500px;
+    position: relative;
+    left: 130px;
+    top: 20px;
+}
+#cont2{
+    width: 500px;
+    background-color: white;
+    position: relative;
+    bottom: 1190px;
+    left: 810px;
+    border-radius: 5px;
+    
+}
+#cont2 a{
+    text-decoration: none;
+    color: black;
+}
+#cont2 a:hover{
+    text-decoration: none;
+    color: blue;
+}
+#defilant{
+    height: 300px;
+    position: absolute;
+    bottom: 90px;
+    background-color: white;
+    border: 3px solid white;
+}
+#defilant .idem{
+    height: 300px;
+}
+#download{
+    position: absolute;
+    width: 500px;
+    height: 470px;
+    left: 810px;
+    bottom: 405px;
+    box-shadow: 2px 2px 8px black inset;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+}
+#download h4{
+    position: relative;
+    text-align: center;
+}
+#download #image_poster{
+    width: 460px;
+    height: 330px;
+    position: relative;
+    left: 15px;
+}
+#bouton_info{
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 430px;
+    height: 35px;
+    background-color: #06213F;
+    border-radius: 5px 10px 5px 10px;
+}
+#bouton_info:hover{
+    background-color: red;
+    color: blue;
+}
+footer{
+		background-color: black;
+		color: white;
+        width: 97%;
+		height: 150px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		border: 2px solid white;
+		border-radius: 5px 5px 5px 5px;
+		position: relative;
+		top: 90px;
+    left: 10px
+	}
+	footer .licence{
+		position: relative;
+		text-align: center;
+		top: 70px;
+	}
+	footer .contacts{
+		text-align: center;
+		position: relative;
+		top: 20px;
+	}

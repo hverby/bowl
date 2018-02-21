@@ -1,0 +1,115 @@
+html{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #06213F;
+}
+header{
+    background-color: gainsboro;
+    height: 200px;
+}
+#logo{
+    width: 150px;
+}
+header nav .list1 li{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    left: 250px;
+    bottom: 90px;
+    color:black;
+    font-size: large;
+    border:  2px solid white;
+    background-color: white;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+}
+header nav .list2 li{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    left: 950px;
+    bottom: 165px;
+    color:black;
+    font-size: large;
+    border:  2px solid white;
+    background-color: white;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+}
+#connexion{
+    position: relative;
+    left: 300px;
+    top: 50px;
+    background-color: beige;
+    width: 700px;
+    height: 300px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+#form{
+    position: relative;
+    left: 250px;
+    top:20px;
+}
+#mail{
+    height: 25px;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+#password{
+    height: 25px;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 20px;
+}
+#bouton{
+    width: 170px;
+    height: 35px;
+    background-color: dodgerblue;
+    border-radius: 5px 5px 5px 5px;
+}
+#oublié{
+    position: relative;
+    left: 450px;
+    top: 50px;
+    background-color: beige;
+    width: 450px;
+    height: 200px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+}
+#oublié #form2{
+    position: relative;
+    left: 115px;
+}
+#bouton2{
+    width: 170px;
+    height: 35px;
+    background-color:chartreuse;
+    border-radius: 5px 5px 5px 5px;
+}
+footer{
+		background-color: black;
+		color: white;
+		height: 150px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		border: 2px solid white;
+		border-radius: 5px 5px 5px 5px;
+		position: relative;
+		top: 60px;
+	}
+	footer .licence{
+		position: relative;
+		text-align: center;
+		top: 70px;
+	}
+	footer .contacts{
+		text-align: center;
+		position: relative;
+		top: 20px;
+	}
